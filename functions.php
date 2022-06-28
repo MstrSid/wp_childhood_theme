@@ -1,6 +1,7 @@
 <?php
 add_action('wp_enqueue_scripts', 'childhood_styles');
 add_action('wp_enqueue_scripts', 'childhood_scripts');
+add_theme_support( 'custom-logo');
 
 function childhood_styles(): void
 {
